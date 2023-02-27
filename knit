@@ -1,1 +1,1 @@
-python3 knit/main.py $1
+python3 knit/src/main.py $1
