@@ -1,2 +1,0 @@
-# knit
-A small esolang!
