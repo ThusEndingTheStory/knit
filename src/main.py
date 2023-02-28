@@ -2,7 +2,7 @@ from sys import argv
 
 def run(file):
 	for line in file:
-		words = line.split("*")
+		words = line.split("/")
 		if words[0] == "echo":
 			print(words[1])
 
