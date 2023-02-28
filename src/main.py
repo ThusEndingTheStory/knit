@@ -16,4 +16,4 @@ def o():
 	except:
 		err("Couldn't open target file")
     
-print(o())
+run(o())
