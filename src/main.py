@@ -3,8 +3,8 @@ from sys import argv
 def run(file):
 	for line in file:
 		words = line.split("*")
-			if words[0] == "echo":
-				print(words[1])
+		if words[0] == "echo":
+			print(words[1])
 
 def err(msg):
 	print("Knit: Error: " + msg)
